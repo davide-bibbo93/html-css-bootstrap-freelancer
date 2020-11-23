@@ -40,3 +40,12 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
+
+.portfolio img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.portfolio .box {
+  padding: 10px 0;
+}
