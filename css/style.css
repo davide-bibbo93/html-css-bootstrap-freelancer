@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  background-color: green;
+  background-color: #fff;
   height: 100%;
 }
 /* fine common settings */
@@ -25,6 +25,7 @@ body {
 .start_bootstrap {
   color: #FFFFFF;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .start_bootstrap img {
@@ -33,4 +34,9 @@ body {
 
 .start_bootstrap .jumbotron {
   background-color: #1abc9c;
+}
+
+.portfolio .title {
+  text-align: center;
+  text-transform: uppercase;
 }
