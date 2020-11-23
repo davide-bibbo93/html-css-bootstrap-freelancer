@@ -9,7 +9,6 @@ body {
 }
 
 .container {
-  background-color: #fff;
   height: 100%;
 }
 /* fine common settings */
@@ -21,7 +20,7 @@ body {
 }
 /* fine navbar */
 
-/* inizio main */
+/* inizio main e startboot-jumbo*/
 .start_bootstrap {
   color: #FFFFFF;
   text-align: center;
@@ -35,7 +34,9 @@ body {
 .start_bootstrap .jumbotron {
   background-color: #1abc9c;
 }
+/* fine startboot-jumbo */
 
+/* inizio portfolio */
 .portfolio .title {
   text-align: center;
   text-transform: uppercase;
@@ -49,3 +50,18 @@ body {
 .portfolio .box {
   padding: 10px 0;
 }
+
+.portfolio{
+  padding-bottom: 40px;
+}
+/* fine portfolio */
+
+/* inizio about */
+.about {
+  background-color: #1abc9c;
+  text-align: center;
+  color: #fff;
+}
+
+
+/* fine about */
