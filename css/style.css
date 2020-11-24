@@ -37,6 +37,14 @@ h2{
   font-weight: 700;
 }
 
+.text-center{
+  text-align: center;
+}
+
+.text-white{
+  color: #fff;
+}
+
 .font_size_48 {
   font-size: 48px;
 }
@@ -73,21 +81,12 @@ h2{
 /* fine navbar */
 
 /* inizio main e startboot-jumbo*/
-.start_bootstrap {
-  color: #FFFFFF;
-  text-align: center;
-}
-
 .start_bootstrap img {
   height: 200px;
 }
 /* fine startboot-jumbo */
 
 /* inizio portfolio */
-.portfolio .title {
-  text-align: center;
-}
-
 .portfolio img {
   width: 100%;
   border-radius: 10px;
@@ -104,8 +103,6 @@ h2{
 
 /* inizio about */
 .about {
-  text-align: center;
-  color: #fff;
   padding: 20px 0;
 }
 
@@ -127,14 +124,6 @@ h2{
 .contact_me {
   color: #2c3e50;
   padding: 20px 0;
-}
-
-.contact_me .portfolio{
-  text-align: center;
-}
-
-.contact_me h2 {
-  text-align: center;
 }
 
 .contact_me .btn{
@@ -163,8 +152,6 @@ h2{
 /* inizio footer */
 .info {
   padding: 30px 0;
-  color: #FFFFFF;
-  text-align: center;
 }
 
 .info h2 {
