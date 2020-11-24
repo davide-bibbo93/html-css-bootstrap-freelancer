@@ -12,12 +12,26 @@
   <body>
 
     <!-- inizio navbar -->
-    <div class="container-fluid">
-      <div class="row nav">
-        <div class="container">
+    <nav class="navbar navbar-default bl-navbar">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand text-uppercase" href="#">Start Bootstrap</a>
         </div>
-      </div>
-    </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="text-uppercase"><a href="#">Portfolio</a></li>
+            <li class="text-uppercase"><a href="#">Contact</a></li>
+            <li class="text-uppercase"><a href="#">About</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div><!--/.container-fluid -->
+    </nav>
     <!-- fine navbar -->
 
     <!-- inzio main -->
@@ -102,10 +116,10 @@
             </div>
           </div>
           <div class="row">
-            <div class="col-xs-12 col-sm-5 col-sm-offset-1">
+            <div class="text left col-xs-8 col-xs-offset-2 col-sm-offset-1 col-sm-5">
               <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
             </div>
-            <div class="col-xs-12 col-sm-6">
+            <div class="text right col-xs-8 col-xs-offset-2 col-sm-offset-0 col-sm-5">
               <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
             </div>
           </div>
@@ -127,15 +141,20 @@
               <h2 class="font_size_48"><div class="custom_line"></div> <i class="fa fa-star" aria-hidden="true"></i> <div class="custom_line"></div></h2>
             </div>
           </div>
-          <div class="row col-xs-10 col-xs-offset-1 ">
-            <ul class="list-group">
-              <li class="list-group-item">Name</li>
-              <li class="list-group-item">Email Address</li>
-              <li class="list-group-item">Phone Number</li>
-              <li class="list-group-item">Message</li>
-            </ul><br><br>
-            <hr>
-            <button type="button" class="btn btn-success">send</button>
+          <div class="row">
+            <form class="bl-form text left col-xs-8 col-xs-offset-2 col-sm-9 col-sm-offset-1">
+              <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" rows="5" placeholder="Message"></textarea>
+              </div>
+
+              <button type="button" class="btn btn-success">send</button>
+            </form>
           </div>
         </div>
       </section>
@@ -149,20 +168,20 @@
       <section class="info">
         <div class="container">
           <div class="row">
-            <div class="col-xs-12 col-md-4">
+            <div class="col-xs-12 col-sm-4 ">
               <h2>Location</h2>
-              <p>2215 John Daniel Drive<br>Clark, MO 65243</p>
+              <p>2215 John Daniel Drive Clark, MO 54243</p>
             </div>
-            <div class="col-xs-12 col-md-4">
+            <div class="col-xs-12 col-sm-4">
               <h2>Around the web</h2>
               <div class="social">
-                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-google-plus-official" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-facebook img-circle" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter img-circle" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-google-plus-official img-circle" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-linkedin img-circle" aria-hidden="true"></i></a>
               </div>
             </div>
-            <div class="col-xs-12 col-md-4">
+            <div class="col-xs-12 col-sm-4">
               <h2>About freelancer</h2>
               <p>Freelance is a free to use, MIT licensed Bootstrap theme created by <a href="#">Start Bootstrap.</a></p>
             </div>
