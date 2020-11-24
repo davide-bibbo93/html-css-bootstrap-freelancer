@@ -14,25 +14,26 @@ body {
   vertical-align: middle;
 }
 
+.portfolio .custom_line, .contact_me .custom_line {
+  background-color: #2c3e50;
+}
+
+.start_bootstrap .jumbotron {
+  background-color: #1abc9c;
+}
+
 h1 {
   font-weight: 700;
 }
 
 h2{
+  text-transform: uppercase;
   font-size: 40px;
   font-weight: 700;
 }
 
 .font_size_48 {
   font-size: 48px;
-}
-
-.container-fluid {
-  background-color: red;
-}
-
-.container {
-  height: 100%;
 }
 
 .fa-star{
@@ -82,10 +83,6 @@ h2{
   height: 200px;
 }
 
-.start_bootstrap .jumbotron {
-  background-color: #1abc9c;
-}
-
 .jumbotron p{
   font-weight: bolder;
 }
@@ -109,10 +106,6 @@ h2{
 .portfolio{
   padding-bottom: 40px;
 }
-
-.portfolio .custom_line{
-  background-color: #2c3e50;
-}
 /* fine portfolio */
 
 /* inizio about */
@@ -120,10 +113,7 @@ h2{
   background-color: #1abc9c;
   text-align: center;
   color: #fff;
-}
-
-.about h2{
-  text-transform: uppercase;
+  padding: 20px 0;
 }
 
 .about p{
@@ -135,7 +125,7 @@ h2{
   background-color: #1abc9c;
   border: 1px solid white;
   color: #fff;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 /* fine about */
@@ -143,6 +133,7 @@ h2{
 /* inizia contact me */
 .contact_me {
   color: #2c3e50;
+  padding: 20px 0;
 }
 
 .contact_me .portfolio{
@@ -150,31 +141,27 @@ h2{
   text-transform: uppercase;
 }
 
-.contact_me .custom_line {
-  background-color: #2c3e50;
-}
-
 .contact_me h2 {
   text-align: center;
+}
+
+.contact_me .btn{
+  margin-bottom: 40px;
 }
 
 .bl-form ::placeholder, .bl-form input, .bl-form textarea{
   color: #2c3e50;
   font-size: 19px;
-  /* line-height: 2.5; */
-
 }
 
 .bl-form .form-group{
   border-bottom: 1px solid #ccc;
   padding: 10px 0;
-
 }
 
 .bl-form input, .bl-form textarea{
   border: 0;
   border-radius: 0;
-  /* border-bottom: 1px solid #ccc; */
   box-shadow: none;
   padding-left: 0;
 }
