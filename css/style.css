@@ -18,12 +18,17 @@ body {
   background-color: #2c3e50;
 }
 
-.start_bootstrap .jumbotron {
+.background-green{
   background-color: #1abc9c;
+}
+
+.background-dark{
+  background-color: #2c3e50;
 }
 
 h1 {
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 h2{
@@ -46,11 +51,6 @@ h2{
   border: 0;
   border-radius: 0;
   margin: 0;
-}
-
-.bl-navbar {
-  background-color: #2c3e50;
-  color: #fff;
 }
 
 .bl-navbar .navbar-brand, .bl-navbar .navbar-nav>li>a {
@@ -76,22 +76,16 @@ h2{
 .start_bootstrap {
   color: #FFFFFF;
   text-align: center;
-  text-transform: uppercase;
 }
 
 .start_bootstrap img {
   height: 200px;
-}
-
-.jumbotron p{
-  font-weight: bolder;
 }
 /* fine startboot-jumbo */
 
 /* inizio portfolio */
 .portfolio .title {
   text-align: center;
-  text-transform: uppercase;
 }
 
 .portfolio img {
@@ -110,7 +104,6 @@ h2{
 
 /* inizio about */
 .about {
-  background-color: #1abc9c;
   text-align: center;
   color: #fff;
   padding: 20px 0;
@@ -138,7 +131,6 @@ h2{
 
 .contact_me .portfolio{
   text-align: center;
-  text-transform: uppercase;
 }
 
 .contact_me h2 {
@@ -171,15 +163,12 @@ h2{
 /* inizio footer */
 .info {
   padding: 30px 0;
-  background-color: #2c3e50;
   color: #FFFFFF;
   text-align: center;
 }
 
 .info h2 {
   font-size: 24px;
-  font-weight: 700;
-  text-transform: uppercase;
 }
 
 .info p {
